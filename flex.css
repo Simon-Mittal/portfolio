@@ -6,14 +6,14 @@ body{
   margin:0;
   background-color: whitesmoke;
 }
-body,html{
+/*body,html{
   overflow-x: hidden;  
   max-width: 100%; 
-}
-/*.conte, .sec2, #projects, #contact {
+}*/
+.conte, .sec2, #projects, #contact {
   width: 100vw;       
   box-sizing: border-box; 
-}*/
+}
 #home{
   font-size: 20px;
   font-family:'Times New Roman', Times, serif;
