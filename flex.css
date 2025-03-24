@@ -1,0 +1,215 @@
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 600px;
+  margin:0;
+  background-color: whitesmoke;
+}
+#home{
+  font-size: 20px;
+  font-family:'Times New Roman', Times, serif;
+  width: 90%;
+  font-size: 14px;
+  cursor: pointer;
+  max-width:1000px;
+  height: 400px;
+  min-width: 100px;
+  margin: 80px auto;
+  border-radius: 10px;
+  text-align: center;
+  gap: 5px;               
+  height:auto;
+  padding:70px;
+  scroll-margin-top: 30px; 
+}
+.conte{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 600px;
+  background-color:whitesmoke;
+}
+#socials{
+  display:flex;
+  gap:15px;
+  align-items: right;
+  padding: 0.5 22px;
+  border-radius:5px;
+  margin-top: 20px;
+  width: fit-content;
+}
+#socials a{
+  font-size:30px;
+  color: black;
+  text-decoration:none;
+  transition: color 0.2s ease;
+}
+#socials a:hover{
+  color:rgb(54, 128, 197);
+}
+#imgdiv{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  max-width: 80%;
+  max-width: 370px;
+  background-color:rgb(189, 195, 199);
+  border: 1px solid rrgb(189, 195, 199);
+  border-radius: 10px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.sec2{
+  display: flex;
+  flex-direction: column;
+  text-align:center;
+  width: 100vw;
+  height: 600px;
+  background-color: rgb(230, 233, 237);
+  padding-top: 70px;
+}
+.certcont{
+  display:flex;
+  flex-direction: row;
+  background-color:rgb(56, 81, 106);
+  border: 0.5vw solid rgb(56, 81, 106);
+  border-radius: 10px;
+}
+.content{
+  margin-top: 60px;
+  display:flex;
+  flex-direction: row;
+  gap:10vw;
+  justify-content: space-between;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+.certificate{
+  width:100%;
+  object-fit: cover;
+  min-width: 30vw;
+  border-radius: 9px;
+}
+
+
+
+
+#projects{
+  display: flex;
+  background-color:whitesmoke;
+  flex-direction: column;
+  text-align:center;
+  width: 100vw;
+  height: 600px;
+  padding-top: 70px;
+}
+.proclass{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto; 
+  margin-top: 60px;   
+  max-width: 400px;
+}
+.quizimg{
+  width:100%;
+  object-fit: cover;
+  border-radius: 9px;
+}
+.imgcont{
+  display:flex;
+  flex-direction: column;
+  background-color:rgb(56, 81, 106);
+  border: 0.5vw solid rgb(56, 81, 106);
+  border-radius: 10px;
+  max-width: 400px;
+}
+.quizpara{
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  margin-left: 0.4vw;
+  margin-right: 0.4vw;
+  margin-top: 20px;
+}
+.quizparaheading{
+  display: flex;
+  text-align: left;
+  margin-bottom: 0;
+  color: rgb(30, 43, 56);
+  font-weight: bold;
+  font-size:x-large;
+  font-family:'Times New Roman', Times, serif;
+}
+.linkquiz{
+  display:flex;
+  flex:1;
+  gap: 20px;
+  justify-content: end;
+}
+.quizsec{
+  display: flex;
+  margin-bottom: 0;
+}
+
+.linkquiz a{
+  font-size:20px;
+  color: rgb(30, 43, 56);
+  text-decoration:none;
+  transition: color 0.2s ease;
+}
+.linkquiz a:hover{
+  color:rgb(56, 81, 106);
+}
+
+.details{
+  display: flex;
+  flex-direction: column;       
+  align-items: center;           
+  justify-content: center;       
+  gap: 15px;                   
+  margin-top: 30px;
+}
+
+
+.phone{
+  display: flex;
+  align-items: center; 
+  font-family:'Times New Roman', Times, serif;           
+  justify-content: flex-start;    
+  background-color:rgb(189, 195, 199);      
+  color: rgb(30, 43, 56);                
+  width: px;                  
+  padding: 15px 20px;
+  margin-top: 10px;
+  border-radius: 30px;               
+  transition: 0.3s;
+  font-size: 17px;
+}
+.phone a{
+  text-decoration: none;
+  color: rgb(30, 43, 56);
+}
+.phone i {
+  font-size: 22px;                
+  color: rgb(30, 43, 56);            
+  margin-right: 15px;             
+}
+
+
+.phone span {
+  font-size: 17px;
+              
+}
+
+.phone:hover {    
+  background-color: rgb(56, 81, 106);        
+}
+#contact{
+  height: auto;
+  padding-bottom: 100px;
+}

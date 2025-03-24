@@ -1,0 +1,33 @@
+@media(max-width:1000px)
+{
+  .content{
+    flex-direction: column;
+  }
+}
+@media(max-width:1000px)
+{
+  #home.conte{
+    display:flex;
+    flex-direction: column;
+    gap:40px;
+  }
+}
+@media(max-width:600px)
+{
+  .heading{
+    font-size: large;
+  }
+}
+@media (max-width: 768px) {
+  .phone{
+      width: 27%;                   
+      font-size: 14px;              
+      height: 15px;                 
+      padding: 12px 18px;          
+  }
+
+  .phone i {
+      font-size: 14px;               
+      margin-right: 12px;           
+  }
+}
