@@ -3,7 +3,7 @@ html{
 }
 .hello{
   position: fixed;
-  width:80vh;
+  width:90vw;
   top: 24px;
   justify-content: space-between;
   background-color: rgb(52, 73, 94);
@@ -15,6 +15,7 @@ html{
   justify-content: center;
   padding-right: 30px;
   align-items: center;
+  width:80vh;
 }
 #name{
   color: rgb(30, 43, 56);
