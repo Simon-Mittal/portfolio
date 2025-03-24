@@ -9,7 +9,6 @@ html{
   background-color: rgb(52, 73, 94);
   padding:10px 0;
   border-radius: 15px;
-  box-sizing: border-box; 
 }
 .top{
   display: flex;
