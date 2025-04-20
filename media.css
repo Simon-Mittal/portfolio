@@ -22,9 +22,7 @@
   }
 }
 
-/* Tablet Devices */
 @media screen and (max-width: 768px) {
-  /* Navigation */
   .hello {
     width: 95vw;
   }
@@ -37,8 +35,6 @@
     padding: 5px 15px;
     font-size: 14px;
   }
-  
-  /* Home Section */
   .conte {
     flex-direction: column-reverse;
     height: auto;
@@ -59,8 +55,6 @@
   #imgdiv {
     max-width: 300px;
   }
-  
-  /* Certifications Section */
   .content {
     flex-direction: column;
     gap: 30px;
@@ -75,12 +69,10 @@
     min-width: 100%;
   }
   
-  /* Projects Section */
   .proclass {
     width: 80%;
   }
-  
-  /* Headings */
+
   .heading {
     padding: 0 15px;
   }
@@ -91,9 +83,9 @@
   }
 }
 
-/* Mobile Devices */
+
 @media screen and (max-width: 480px) {
-  /* Navigation */
+
   .hello {
     width: 100vw;
     border-radius: 0;
@@ -111,8 +103,7 @@
     padding: 5px 8px;
     font-size: 12px;
   }
-  
-  /* Home Section */
+
   #home {
     padding: 30px 15px;
     margin-top: 60px;
@@ -125,8 +116,7 @@
   #text {
     font-size: 16px;
   }
-  
-  /* Section Spacing */
+
   .sec2, #projects {
     padding-top: 50px;
   }
@@ -134,8 +124,7 @@
   .heading h1 {
     font-size: 24px;
   }
-  
-  /* Projects Section */
+
   .quizparaheading {
     font-size: 20px;
   }
@@ -143,14 +132,12 @@
   .description {
     font-size: 15px;
   }
-  
-  /* Contact Section */
+
   .phone {
     width: 90%;
     max-width: 250px;
   }
-  
-  /* General Content */
+
   #certifications, #projects, #contact {
     padding-bottom: 50px;
   }
@@ -160,7 +147,6 @@
   }
 }
 
-/* Small Mobile Devices */
 @media screen and (max-width: 360px) {
   nav a {
     padding: 5px 5px;
@@ -181,5 +167,74 @@
   
   .description {
     font-size: 14px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+  .hello {
+    left: 50%;
+    transform: translateX(-50%);
+    width: 95vw;
+  }
+  
+  .top {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 4vw;
+    padding: 0;
+  }
+  
+  nav a {
+    margin: 0;
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+  
+  .conte {
+    flex-direction: column-reverse;
+    height: auto;
+    padding: 120px 20px 50px;
+  }
+  
+  #homepara {
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  #socials {
+    margin: 20px auto;
+  }
+  
+  #imgdiv {
+    max-width: 300px;
+  }
+
+  .content {
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
+  
+  .certcont {
+    width: 80%;
+  }
+  
+  .certificate {
+    min-width: 100%;
+  }
+
+  .proclass {
+    width: 80%;
+  }
+
+  .heading {
+    padding: 0 15px;
+  }
+  
+  .heading h1 {
+    font-size: 26px;
+    word-wrap: break-word;
   }
 }
