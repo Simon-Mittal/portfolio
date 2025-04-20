@@ -2,6 +2,23 @@
   .hello {
     left: 50%;
     transform: translateX(-50%);
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .top {
+    width: 100%;
+    max-width: 800px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  nav a {
+    margin: 0;
+    padding: 5px 20px;
   }
   
   .heading {
@@ -18,19 +35,14 @@
   /* Navigation */
   .hello {
     width: 95vw;
-    left: 50%;
-    transform: translateX(-50%);
   }
   
   .top {
-    width: 100%;
-    padding-right: 0;
-    justify-content: space-around;
+    max-width: 600px;
   }
   
   nav a {
-    margin-left: 2vh;
-    margin-right: 2vh;
+    padding: 5px 15px;
     font-size: 14px;
   }
   
@@ -99,11 +111,12 @@
   
   .top {
     padding: 0 5px;
+    max-width: 100%;
   }
   
   nav a {
-    margin-left: 1vh;
-    margin-right: 1vh;
+    margin: 0;
+    padding: 5px 8px;
     font-size: 12px;
   }
   
@@ -158,8 +171,7 @@
 /* Small Mobile Devices */
 @media screen and (max-width: 360px) {
   nav a {
-    margin-left: 0.5vh;
-    margin-right: 0.5vh;
+    padding: 5px 5px;
     font-size: 11px;
   }
   
