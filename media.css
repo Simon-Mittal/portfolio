@@ -1,5 +1,5 @@
-@media (max-width: 1024px) {
-  /* Tablet and smaller screens */
+@media (max-width: 768px) {
+  /* General adjustment for mobile screens */
   .hello {
     width: 100vw;
     top: 0;
@@ -8,10 +8,11 @@
   }
 
   .top {
-    flex-direction: row;
-    justify-content: space-between;
-    padding-right: 10px;
+    flex-direction: column;
+    padding-right: 0;
+    gap: 10px;
     width: 100%;
+    align-items: center;
   }
 
   #homepara {
@@ -25,111 +26,32 @@
   }
 
   .conte {
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: auto;
     padding: 40px 0;
   }
 
   #imgdiv {
-    max-width: 60%;
+    max-width: 70%;
+    margin-top: 20px;
   }
 
   .content {
     flex-direction: column;
     gap: 20px;
     align-items: center;
-    margin: 30px 5vw 0 5vw;
+    margin: 20px 5vw;
   }
 
-  .sec2 {
-    padding-bottom: 70px;
+  .certcont {
+    width: 80%;
   }
 
-  #projects {
-    height: auto;
-    padding-bottom: 70px;
-  }
-
-  .proclass {
-    max-width: 80%;
-    margin-top: 40px;
-  }
-
-  .quizparaheading {
-    font-size: 20px;
-  }
-
-  .quizsec {
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-  }
-
-  .linkquiz {
-    justify-content: center;
-  }
-
-  .details {
-    padding: 0 10px;
-  }
-
-  .phone {
+  .certificate {
     width: 100%;
-    justify-content: center;
-    text-align: center;
-  }
-
-  #socials {
-    justify-content: center;
-  }
-
-  #socials a {
-    font-size: 24px;
-  }
-}
-
-@media (max-width: 768px) {
-  /* Mobile screens */
-  .hello {
-    width: 100vw;
-    top: 0;
-    padding: 10px 0;
-    border-radius: 0;
-  }
-
-  .top {
-    flex-direction: column;
-    padding-right: 0;
-    gap: 10px;
-    width: 100%;
-  }
-
-  #homepara {
-    font-size: 15px;
-    margin: 0 5vw;
-    text-align: center;
-  }
-
-  #name {
-    font-size: 28px;
-  }
-
-  .conte {
-    flex-direction: column;
     height: auto;
-    padding: 40px 0;
-  }
-
-  #imgdiv {
-    max-width: 80%;
-    margin-top: 30px;
-  }
-
-  .content {
-    flex-direction: column;
-    gap: 30px;
-    align-items: center;
-    margin: 30px 5vw 0 5vw;
   }
 
   .sec2 {
@@ -146,15 +68,19 @@
     margin-top: 40px;
   }
 
+  .quizimg {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 9px;
+  }
+
   .quizparaheading {
     font-size: large;
-    text-align: center;
   }
 
   .quizsec {
     flex-direction: column;
     align-items: center;
-    gap: 10px;
   }
 
   .linkquiz {
@@ -162,8 +88,7 @@
   }
 
   .details {
-    width: 100%;
-    padding: 0 20px;
+    padding: 0 10px;
   }
 
   .phone {
@@ -179,6 +104,7 @@
 
   #socials {
     justify-content: center;
+    gap: 10px;
   }
 
   #socials a {
